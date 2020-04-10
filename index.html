@@ -1,12 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <a href="game.html"> Чтобы запустить эволюцию - нажмите </a>
-</body>
+<html>
+  <head>
+    <title>Шаблон Bootstrap 101</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body style="background: #AFEEEE">
+
+     <div class = "blockMain">
+      <div class="hero-unit text-center" id = 'question'>
+          <h1 class = >Лучшая мяфторина</h1>
+          <div class="question" id = "question" style="font-size: 20px"> </div>
+        </div>
+        
+        <div class = "start-quiz hero-unit text-center">
+          Пришло время пройти самую лучшую мяфторину в мире! <br>
+          Ты говтова? Are you ready?)<br>
+        <!--<div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">
+              Выводить ответы сразу?
+            </label>
+          </div> -->
+          <button class = "start-btn btn btn-success" style="background: #0000CD">Начать викторину</button>
+
+        </div>
+       
+        <div class = "answer"></div>
+        
+        <div class = "comment"></div>
+
+
+        <div class = 'button'>
+        <div class = "next">
+          <button class = "btn btn-success">Следующий вопрос</button>
+        </div>
+        <div class = "end">
+          <button class = "btn btn-success">Закончить тест</button>
+        </div>
+      </div>
+
+      
+   
+
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" id="progressbar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+        </div>
+      </div>
+
+      <div class = "forImage">
+
+        <img src="img/0.jpg" alt="Письма мастера дзен" width="400" height="400" class="imgFor" >
+
+      </div>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>

@@ -1,0 +1,50 @@
+
+.answer{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.comment{
+    text-align: center;
+}
+
+.forImage{
+    text-align: center;
+}
+
+
+
+.imgOne{
+    background: "/img/1.jpg";
+}
+
+.progress{
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.button {
+    margin-left: 40%;
+}
+
+.question {
+    padding: 1%;
+}
+
+.blockMain{
+    background: #ffffff;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 1%;
+
+
+}
+
+.imgNull{
+    background-image: "/img/0.jpg";
+    background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
+     display: inline-block;
+}
